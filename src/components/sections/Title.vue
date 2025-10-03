@@ -23,34 +23,39 @@ const btn_color = '#444444'
 // 作者清单（只保留名字和上标，不用头像）
 const authors = [
   {
-    name: "Runsen Xu",
-    homepage: "https://yourhomepage1.com",
-    address_flag: "1,2"
+    name: "Miao Hu",
+    homepage: "https://github.com/hm123450",
+    address_flag: "1"
   },
   {
     name: "Zhiwei Huang",
-    homepage: "https://yourhomepage2.com",
-    address_flag: "3"
+    homepage: "https://github.com/huang583824382",
+    address_flag: "2"
   },
   {
     name: "Tai Wang",
-    homepage: "https://yourhomepage3.com",
-    address_flag: "2"
-  },
-  {
-    name: "Yilun Chen",
-    homepage: "https://yourhomepage4.com",
-    address_flag: "2"
+    homepage: "https://tai-wang.github.io",
+    address_flag: "4"
   },
   {
     name: "Jiangmiao Pang",
-    homepage: "https://yourhomepage5.com",
-    address_flag: "2"
+    homepage: "https://oceanpang.github.io",
+    address_flag: "4"
   },
   {
     name: "Dahua Lin",
-    homepage: "https://yourhomepage6.com",
-    address_flag: "1,2"
+    homepage: "http://dahua.site",
+    address_flag: "3,4"
+  },
+  {
+    name: "Nanning Zheng",
+    homepage: "http://www.aiar.xjtu.edu.cn/info/1046/1229.htm",
+    address_flag: "1,*"
+  },
+  {
+    name: "Runsen Xu",
+    homepage: "https://runsenxu.com",
+    address_flag: "3,4,*"
   }
 ]
 
@@ -58,24 +63,29 @@ const authors = [
 const addresses = [
   {
     address_flag: "1",
+    name: "Xi’an Jiaotong University",
+    homepage: "https://www.xjtu.edu.cn/"
+  },
+  {
+    address_flag: "2",
+    name: "Zhejiang University",
+    homepage: "https://www.zju.edu.cn/"
+  },
+  {
+    address_flag: "3",
     name: "The Chinese University of Hong Kong",
     homepage: "https://www.cuhk.edu.hk/"
   },
   {
-    address_flag: "2",
+    address_flag: "4",
     name: "Shanghai AI Laboratory",
     homepage: "https://www.shlab.org.cn/"
-  },
-  {
-    address_flag: "3",
-    name: "Zhejiang University",
-    homepage: "https://www.zju.edu.cn/"
   },
 ]
 
 // 共一和通讯提示
 const con_and_corresponding_author = 
-  "#: Equal Contribution. *: Corresponding Author."
+  "*: Corresponding Author."
 
 // 提供引导资料链接
 const buttons = [
