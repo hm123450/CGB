@@ -17,25 +17,16 @@ import Latex from './sections/Latex.vue'
 import Model3D from './sections/Model3D.vue'
 import GaussianSplats3D from './sections/GaussianSplats3D.vue'
 
+# benchmark statics method experiment demo
+
 export default {
   components: {
     Title,
-    Abstract,
-    Markdown,
-    BibTeX,
     Carousel,
     Video,
-    ImageSlider,
-    ImageSliderInner,
-    ImageSelector,
-    Echart,
-    Collapse,
-    Table,
-    SeletionForComparison,
-    Comment,
-    Latex,
-    Model3D,
-    GaussianSplats3D
+    Abstract,
+    Markdown,
+    BibTeX
   }
 }
 </script>
@@ -46,16 +37,5 @@ export default {
   <Video/>
   <Abstract/>
   <Markdown/>
-  <Latex/>
-  <Table/>
-  <Collapse/>
-  <Echart/>
-  <Model3D/>
-  <GaussianSplats3D/>
-  <SeletionForComparison/>
-  <ImageSliderInner/>
-  <ImageSlider/>
-  <ImageSelector/>
   <BibTeX/>
-  <Comment/>
 </template>
