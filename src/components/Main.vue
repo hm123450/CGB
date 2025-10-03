@@ -17,7 +17,7 @@ import Latex from './sections/Latex.vue'
 import Model3D from './sections/Model3D.vue'
 import GaussianSplats3D from './sections/GaussianSplats3D.vue'
 
-# benchmark statics method experiment demo
+// benchmark statics method experiment demo
 
 export default {
   components: {
