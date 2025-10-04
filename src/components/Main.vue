@@ -2,7 +2,7 @@
 import Title from './sections/Title.vue'
 import Abstract from './sections/Abstract.vue'
 import Benchmark from './sections/benchmark.vue'
-import MCG from './sections/mcg.vue'
+import Mcg from './sections/mcg.vue'
 import Experiment from './sections/experiment.vue'
 import BibTeX from './sections/BibTeX.vue'
 import Carousel from './sections/Carousel.vue'
@@ -16,7 +16,7 @@ export default {
     Video,
     Abstract,
     Benchmark,
-    MCG,
+    Mcg,
     Experiment,
     BibTeX
   }
@@ -28,7 +28,7 @@ export default {
   <Video/>
   <Abstract/>
   <Benchmark/>
-  <MCG/>
+  <Mcg/>
   <Experiment/>
   <BibTeX/>
 </template>
