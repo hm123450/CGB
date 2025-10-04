@@ -7,6 +7,7 @@ import Experiment from './sections/experiment.vue'
 import BibTeX from './sections/BibTeX.vue'
 import Carousel from './sections/Carousel.vue'
 import Video from './sections/Video.vue'
+import Demo from './sections/demo.vue'
 
 // benchmark statics method experiment demo
 
@@ -18,6 +19,7 @@ export default {
     Benchmark,
     Mcg,
     Experiment,
+    Demo,
     BibTeX
   }
 }
@@ -30,5 +32,6 @@ export default {
   <Benchmark/>
   <Mcg/>
   <Experiment/>
+  <Demo/>
   <BibTeX/>
 </template>
