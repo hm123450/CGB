@@ -1,7 +1,9 @@
 <script>
 import Title from './sections/Title.vue'
 import Abstract from './sections/Abstract.vue'
-import Markdown from './sections/Markdown.vue'
+import Benchmark from './sections/benchmark.vue'
+import MCG from './sections/mcg.vue'
+import Experiment from './sections/experiment.vue'
 import BibTeX from './sections/BibTeX.vue'
 import Carousel from './sections/Carousel.vue'
 import Video from './sections/Video.vue'
@@ -13,7 +15,9 @@ export default {
     Title,
     Video,
     Abstract,
-    Markdown,
+    Benchmark,
+    MCG,
+    Experiment,
     BibTeX
   }
 }
@@ -23,6 +27,8 @@ export default {
   <Title/>
   <Video/>
   <Abstract/>
-  <Markdown/>
+  <Benchmark/>
+  <MCG/>
+  <Experiment/>
   <BibTeX/>
 </template>
