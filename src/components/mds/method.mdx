@@ -1,8 +1,8 @@
 
 # Mem-ChangingGrounder (MCG)
 <p align="center">
-  <img src="mainmethod_0804_01.png" width="800">
+  <img src="mainmethod_0804_01.png" width="800" />
 </p>
 
-To address our new task, we introduce Mem-ChangingGrounder (MCG), a zero-shot framework based on VLM-Grounder for 3D visual grounding in changing scenes. MCG takes a user query in the current scene and predicts the 3D bounding box of the target object , using the memory of the previous scene represented as RGB-D images and camera poses. As shown in figure above, MCG has two action policies (Omnidirectional Scene Scanner (OSS) and the Spatial Relation Aware Scanner (SRAS)) within four core modules: Query Classification, Memory Retrieval and Grounding, Fallback, and Multi-view Projection. The workflow is as follows: first, the query is classified to determine the path for retrieval and grounding. MCG then explores the current scene with action policies to locate the target. If this fails, the fallback module estimates the target. Finally, multi-view information is fused for accurate grounding. More detailed explanations are provided in the full paper.
+To address our new task, we introduce Mem-ChangingGrounder (MCG), a zero-shot framework based on VLM-Grounder for 3D visual grounding in changing scenes. MCG takes a user query in the current scene and predicts the 3D bounding box of the target object, using the memory of the previous scene represented as RGB-D images and camera poses. As shown in the figure above, MCG has two action policies (Omnidirectional Scene Scanner (OSS) and the Spatial Relation Aware Scanner (SRAS)) within four core modules: Query Classification, Memory Retrieval and Grounding, Fallback, and Multi-view Projection. The workflow is as follows: first, the query is classified to determine the path for retrieval and grounding. MCG then explores the current scene with action policies to locate the target. If this fails, the fallback module estimates the target. Finally, multi-view information is fused for accurate grounding. More detailed explanations are provided in the full paper.
 
