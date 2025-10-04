@@ -10,7 +10,7 @@
     </el-row>
 
     <el-row justify="center">
-      <el-col :xs="24" :sm="20" :md="16" :lg="12" :xl="10" >
+      <el-col :xs="24" :sm="20" :md="16" :lg="16" :xl="12" >
         
         <!-- YouTube 版本 -->
         <el-container class="video-container">
