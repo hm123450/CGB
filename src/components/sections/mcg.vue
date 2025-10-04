@@ -1,5 +1,5 @@
 <script setup>
-import page from '../mds/md.mdx';
+import page from '../mds/method.mdx';
 </script>
 
 <template>
