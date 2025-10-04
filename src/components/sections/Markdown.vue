@@ -7,7 +7,7 @@ import page from '../mds/md.mdx';
     <el-divider />
 
     <el-row justify="center">
-        <el-col :xs="24" :sm="20" :md="16" :lg="16" :xl="16">
+        <el-col :xs="24" :sm="20" :md="16" :lg="14" :xl="14">
             <page />
         </el-col>
     </el-row>
