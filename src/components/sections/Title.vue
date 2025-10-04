@@ -90,21 +90,10 @@ const con_and_corresponding_author =
 // 提供引导资料链接
 const buttons = [
   {
-    disabled: true,
-    name: "Paper",
-    component: Document,
-  },
-  {
     disabled: false,
     name: "Code",
     link: "https://github.com/xxx/xxx",
     component: Files,
-  },
-  {
-    disabled: false,
-    name: "Demo",
-    link: "https://xxx/demo",
-    component: MagicStick,
   }
 ]
 </script>
