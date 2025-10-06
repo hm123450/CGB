@@ -23,7 +23,7 @@ export default defineConfig({
       ],
     }),
   ],
-  base:'/miaohucgb',
+  base:'/CGB',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
