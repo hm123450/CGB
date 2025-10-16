@@ -10,17 +10,19 @@
     </el-row>
 
     <el-row justify="center">
-      <el-col :xs="24" :sm="20" :md="16" :lg="14" :xl="12" >
+      <el-col :xs="24" :sm="20" :md="16" :lg="14" :xl="12">
         
-        <!-- YouTube 版本 -->
+        <!-- 本地视频版本 -->
         <el-container class="video-container">
-          <iframe 
-            src="https://www.youtube.com/embed/wjZofJX0v4M?si=BFvRyc3n3fFV_f1G" 
-            frameborder="0" 
-            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            referrerpolicy="strict-origin-when-cross-origin" 
-            allowfullscreen>
-          </iframe>
+          <video 
+            controls
+            autoplay
+            muted
+            loop
+          >
+            <source src="/videos/demo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </el-container>
 
       </el-col>
@@ -33,8 +35,10 @@
   margin: 20px 0px 0px 0px;
 }
 
-iframe, video {
+video {
   aspect-ratio: 16 / 9;
   width: 100%;
+  border-radius: 8px;
+  background: black;
 }
 </style>
