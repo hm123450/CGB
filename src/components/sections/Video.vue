@@ -6,7 +6,7 @@
     <el-divider />
 
     <el-row justify="center">
-      <h1 class="section-title">Explainer Video</h1>
+      <h1 class="section-title">Video</h1>
     </el-row>
 
     <el-row justify="center">
@@ -36,7 +36,7 @@
 }
 
 video {
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 16.1 / 9;
   width: 100%;
   border-radius: 8px;
   background: black;
