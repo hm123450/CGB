@@ -94,7 +94,13 @@ const buttons = [
     name: "Code",
     link: "https://github.com/hm123450/ChangingGroundingBenchmark",
     component: Files,
-  }
+  },
+  {
+    disabled: false,
+    name: "Arxiv",
+    link: "https://arxiv.org/abs/2510.14965",
+    component: Document,
+  }  
 ]
 </script>
 
