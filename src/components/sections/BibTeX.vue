@@ -3,15 +3,19 @@ export default {
   data() {
     return {
       bibtex: [
-        "@article{junyaohu2023template,",
-        "    title={Academic Project Page Template Vue},",
-        "    author={Hu, Junyao},",
-        "    journal={GitHub},",
-        "    year={2023}",
-        "}",
+        "@misc{hu2025changinggrounding3dvisualgrounding,",
+        "  title={ChangingGrounding: 3D Visual Grounding in Changing Scenes},", 
+        "  author={Miao Hu and Zhiwei Huang and Tai Wang and Jiangmiao Pang and Dahua Lin and Nanning Zheng and Runsen Xu},",
+        "  year={2025},",
+        "  eprint={2510.14965},",
+        "  archivePrefix={arXiv},",
+        "  primaryClass={cs.CV},",
+        "  url={https://arxiv.org/abs/2510.14965},",
+        "}"
       ],
     }
   },
+  
   methods: {
     copyVal() {
       let oInput = document.createElement('textarea');
@@ -25,33 +29,30 @@ export default {
     }
   }
 }
-
 </script>
 
 <template>
   <div>
     <el-divider />
       
-      <el-row justify="center">
-        <h1 class="section-title">BibTeX</h1>
-      </el-row>
+    <el-row justify="center">
+      <h1 class="section-title">BibTeX</h1>
+    </el-row>
       
-      <el-row justify="center">
-        <el-col class='bibtex' :xs="24" :sm="20" :md="14" :lg="12" :xl="12" @click="copyVal()" >
-          <div style="text-align: center; color: var(--el-text-color-secondary); margin-top: 20px;">🖱️ Click here to copy BibTex.</div> 
-          <el-row>
-              <el-scrollbar style="margin: 0px 20px 5px 20px;">
-                <pre id="bibtex"><code v-for="b in bibtex">{{ b }}<br/></code></pre>
-              </el-scrollbar>
-          </el-row>
-        </el-col>
-      </el-row>
-
+    <el-row justify="center">
+      <el-col class='bibtex' :xs="24" :sm="20" :md="14" :lg="12" :xl="12" @click="copyVal()">
+        <div style="text-align: center; color: var(--el-text-color-secondary); margin-top: 20px;">🖱️ Click here to copy BibTeX.</div> 
+        <el-row>
+          <el-scrollbar style="margin: 0px 20px 5px 20px;">
+            <pre id="bibtex"><code v-for="b in bibtex" :key="b">{{ b }}<br/></code></pre>
+          </el-scrollbar>
+        </el-row>
+      </el-col>
+    </el-row>
   </div>
 </template>
 
 <style scoped>
-
 .scrollbar-flex-content {
   display: flex;
 }
@@ -85,7 +86,4 @@ pre code {
   font-size: 18px;
   background: #ffffff;
 }
-
-
-
 </style>
