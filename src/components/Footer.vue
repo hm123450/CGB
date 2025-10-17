@@ -3,7 +3,7 @@
   <div class="bg">
     <el-row justify="center">
       <p class="footer">
-        Thanks <a href="https://github.com/JunyaoHu/academic-project-page-template-vue">JunyaoHu</a> for providing template.
+        Thanks <a href="https://github.com/JunyaoHu/academic-project-page-template-vue">JunyaoHu</a> for providing the template.
       </p>
     </el-row>
   </div>
